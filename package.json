@@ -8,7 +8,7 @@
     "build:dev:static": "cross-env ENV_FILENAME=dev webpack --env mode=test",
     "build:test": "cross-env ENV_FILENAME=test webpack --env mode=test",
     "build:rebuild": "cross-env ENV_FILENAME=dev webpack --env mode=rebuild",
-    "zrok": "zrok.exe share public ./widget --backend-mode web"
+    "zrok": "zrok.exe share public ./widget --backend-mode drive"
   },
   "author": "dementor",
   "license": "ISC",
