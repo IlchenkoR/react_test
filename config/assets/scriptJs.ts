@@ -5,6 +5,15 @@ export default 'define([\'{0}\'], function (App){\n' +
 '\t\tself.langs = this.langs;\n' +
 '\t\tthis.callbacks = {\n' +
 '\t\t\trender() {\n' +
+'\t\t\t\tself.render_template({\n' +
+'\t\t\t\t\tcaption: {\n' +
+'\t\t\t\t\t\tclass_name: \'js-zoom-caption\',\n' +
+'\t\t\t\t\t},\n' +
+'\t\t\t\t\tbody: "",\n' +
+'\t\t\t\t\trender: \'<div class="zoom-form">\' +\n' +
+'\t\t\t\t\t\t "dsfasdfasfdasfdasdf" +\n' +
+'\t\t\t\t\t\t\'</div>\'\n' +
+'\t\t\t\t});\n' +
 '\t\t\t\tApp.default.render();\n' +
 '\t\t\t\treturn true;\n' +
 '\t\t\t},\n' +

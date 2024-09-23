@@ -1,12 +1,11 @@
+import { createRoot } from 'react-dom/client';
 import { WidgetSchema } from 'shared/types/Widget.types';
-import './index.css';
-
 
 const Widget: WidgetSchema = {
 	async render(): Promise<boolean> {
 		return true;
-	},
-
+	  },
+	
 	async init(): Promise<boolean> {
 		return true;
 	},
